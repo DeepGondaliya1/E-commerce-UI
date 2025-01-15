@@ -354,7 +354,7 @@
     }
     
     .hero-title {
-        font-size: 32px;
+        font-size: 36px;
         letter-spacing: 4px;
         margin-bottom: 16px;
     }
@@ -642,7 +642,7 @@
   
     .arrival-section-title {
       font-size: 32px;
-      margin-bottom: 24px;
+      margin-bottom: 32px;
     }
 
     .view-all-button{
@@ -728,8 +728,8 @@
 @media (max-width: 768px) {
     .style-grid {
         grid-template-columns: 1fr;
-        gap: 15px;
-        margin-bottom: 15px;
+        gap: 16px;
+        margin-bottom: 16px;
     }
 
     .section-title {
@@ -765,7 +765,7 @@
 
     .section-title {
         font-size: 32px;
-        padding-bottom: 32px;
+        padding-bottom: 28px;
         letter-spacing: 3px;
         max-width: 246px;
     }
@@ -773,8 +773,8 @@
     .style-grid {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 12px;
-        margin-bottom: 12px;
+        gap: 16px;
+        margin-bottom: 16px;
         padding: 0 16px;
     }
 
