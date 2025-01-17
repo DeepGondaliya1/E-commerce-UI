@@ -224,6 +224,10 @@
     display: flex;
     padding: 0;
 }
+
+/* .background-img{
+    background-image: url(/image/Rectangle\ 2.png);
+} */
   
 .hero-content {
     width: 50%;
@@ -266,6 +270,11 @@
 }
   
 .stat-item {
+    min-width: 173px;
+    border-right: 1px solid #d7d7d7;
+}
+
+.stat-item1 {
     min-width: 173px;
     border-right: 1px solid #d7d7d7;
 }
@@ -380,6 +389,11 @@
     }
     
     .stat-item {
+        text-align: center;
+        flex: 1;
+    }
+
+    .stat-item1 {
         min-width: 106px;
         border: none;
         text-align: center;
@@ -564,9 +578,11 @@
 }
   
 .rating-text {
-    color: #b1b1b1;
     font-size: 14px;
-    font-weight: 700;
+}
+
+.rating-style{
+    color: #b1b1b1;
 }
   
 .product-price {
